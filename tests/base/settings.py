@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "django_admin_shortcuts",
+    "django_handy_admin",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",

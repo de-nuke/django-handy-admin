@@ -1,15 +1,14 @@
 [tool.poetry]
-name = "django-admin-shortcuts"
-version = "0.1.0"
-description = ""
+name = "django-handy-admin"
+version = "0.0.0"
+description = "Set of handy addons to Django Admin."
 authors = ["Michał Sut <sut.michal@gmail.com>"]
 readme = "README.md"
-packages = [{include = "django_admin_shortcuts"}]
+packages = [{include = "django_handy_admin"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
 django = "4.2"
-
+python = "^3.8"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.0"
