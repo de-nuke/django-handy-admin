@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-admin-shortcuts"
+version = "0.1.0"
+description = ""
+authors = ["Michał Sut <sut.michal@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_admin_shortcuts"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "4.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+pytest-django = "^4.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "base.settings"
+pythonpath = ". tests"
